@@ -23,7 +23,7 @@ RUN pip install --upgrade pip
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
 
 # 最终阶段
-FROM registry.cn-hangzhou.aliyuncs.com/library/python:3.12.1-slim
+FROM registry.cn-hangzhou.aliyuncs.com/library/python:3.12-slim
 
 WORKDIR /app
 
